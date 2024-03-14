@@ -25,7 +25,7 @@ resource "aws_instance" "mysql" {
   instance_type = "t3.micro"
   vpc_security_group_ids = ["sg-06b8bece9ed37b3dc"]
   tags = {
-    Name = "backend"
+    Name = "mysql"
   }
 }
 
