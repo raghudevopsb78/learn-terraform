@@ -1,4 +1,4 @@
-resource "aws_instance" "frontend" {
+  resource "aws_instance" "frontend" {
   for_each      = var.instance_types
   ami           = var.ami
   instance_type = each.value["instance_type"]
