@@ -24,7 +24,7 @@ data "aws_security_group" "selected" {
   name = "allow-all"
 }
 
-# Decouple provisoner in following scenarios
+# Decouple provisioner in following scenarios
 # 1. If provisioner fails then instance we dont want to re-create my instance.
 # 2. Requirements emerge in a way that we need to re-run the provisioner again and again  (meaning those provisioning commands we need to run again and again)
 
