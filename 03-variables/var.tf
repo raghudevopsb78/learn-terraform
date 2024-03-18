@@ -8,7 +8,7 @@ variable "x" {
 #variable "y" {}
 
 variable "y_list" {
-  default = [1,2,3]
+  default = [1, 2, 3]
 }
 
 variable "z_map" {
